@@ -28,3 +28,32 @@ This project is a retail sales prediction system developed as part of a Data Sci
 
 ## 📂 Folder Structure
 
+data-scientist-project-vasu/
+├── datasets/
+├── notebooks/
+├── models/
+├── app.py # Flask API
+├── model.pkl # Saved machine learning model
+├── requirements.txt # Project dependencies
+└── README.md # Project overview
+
+
+
+---
+
+## 📈 Model Overview
+
+| Metric        | Value (Example)       |
+|---------------|------------------------|
+| R² Score      | 0.92 (XGBoost)         |
+| MAE           | 310.25                 |
+| Model Used    | XGBoost (best performer) |
+
+---
+
+## 🚀 How to Run the Project Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/vasu1104/data-scientist-project-vasu.git
+cd data-scientist-project-vasu
